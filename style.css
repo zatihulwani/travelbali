@@ -1,0 +1,235 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif ;
+}
+
+.background{
+  background-image: url('img/background1.jpg');
+  background-size: cover;
+  margin:0; 
+}
+.backImg{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding:30px 0;
+} 
+
+.logo{
+  width: 400px;
+
+}
+
+img{
+  height: 200px;
+}
+
+.homeText h1{
+  font-family: 'Pacifico', serif ;
+  font-size: 3.4em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.homeText h2{
+  font-family: 'Pacifico', serif ;
+  font-size: 3.4em;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #FCB371;
+}
+
+.homeText h4{
+  font-family: 'Robito', sans-serif ;
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.button{
+  margin: 4em 0 0 0;	
+}
+
+.button ul{
+	margin:0;
+	padding:0;
+}
+.button ul li{
+	display:inline-block;
+}
+.button ul li:nth-child(2){
+	margin-left:1em;
+}
+.button ul li a.button1,.button ul li a.button2{
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: 'Pacifico', serif ;
+    text-decoration: none;
+    padding: .5em 2em;
+    background: none;
+    text-align: center;
+    border: solid 2px #FCB371;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.button ul li a.button2{
+	background: #FCB371 !important;
+	border: solid 1px #FCB371 !important;
+}
+.button ul li a.button2:focus{
+	outline:none;
+}
+.button ul li a.button1:hover{
+	background: #FCB371;
+    border: solid 1px #FCB371;
+}
+.button ul li a.button2:hover{
+	background: none !important;
+    border: solid 1px #FFFFFF !important;
+}
+
+/* about us */
+.agile-left p {
+    left: 50px;
+    right: 1500px;
+    top: 50px;
+    margin-bottom: 2px;
+    align-items: left;
+    position: absolute;
+    color: #FCB371;
+}
+.background-about{
+    background-image: url('img/bg1.png');
+    background-size: cover;
+    margin:0; 
+    padding: 0;
+  }
+.backgroundImg{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  /* text-align: center; */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding:30px 0;
+  position: fixed;
+}
+.aboutText h1{
+    font-family: 'Pacifico', serif ;
+    font-size: 3.4em;
+    font-weight: normal;
+    left: 540px;
+    right: 541px;
+    top: 171px;
+    margin-bottom: 465px;
+    align-items: center;
+    position: absolute;
+    color: #FCB371;
+}
+
+.aboutText h4{
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 28px;
+  position: absolute;
+  width: 850px;
+  height: 190px;
+  left: 300px;
+  top: 301px;
+  line-height: 33px;
+  font-weight: normal;
+  text-align: center;  
+}
+
+/*reservation */
+.background-reservation{
+  background-image: url('img/bg2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.backgroundImg{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding:30px 0;
+}
+
+.reservationText h1{
+  font-family: 'Pacifico', serif ;
+  font-size: 48px;
+  font-weight: normal;
+  left: 540px;
+  right: 541px;
+  top: 58px;
+  margin-bottom: 578px;
+  align-items: center;
+  position: absolute;
+  color: #FCB371;
+}
+
+.booking-form-box{
+  max-width: 400px;
+  margin: 1-% auto 0;
+}
+.booking-form{
+  padding: 0 20px 20px;
+  border-radius: 10px;
+}
+.booking-form label{
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+input::placeholder{
+  color: #A9A9A9 !important;
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 12px;
+  height: 50px;
+}
+.input-grp{
+  width: 151px;
+  display: inline-block;
+}
+.form-control{
+  font-size: 12px ;
+}
+.custom-select
+{
+  color: #A9A9A9 !important;
+  font-size: 12px !important;
+  font-family: 'Open Sans', sans-serif !important ;
+  padding: 16px;
+}
+
+textarea::placeholder{
+  color: #A9A9A9 !important;
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 12px !important ;
+}
+
+.booking-form input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: #FCB371;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Pacifico', serif ;
+  line-height: 21px;
+}
+
